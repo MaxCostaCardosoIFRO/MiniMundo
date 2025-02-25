@@ -1,0 +1,163 @@
+.container {
+    padding: 20px;
+    text-align: center;
+    overflow-x:auto;
+}
+.button{
+    font-family: "Poppins";
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+    border-radius: 7px;
+    transition: background-color .3s;
+    font-size: 1rem;
+    justify-content: flex-start;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: "Poppins", sans-serif;
+}
+
+.table {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+    background: #fff;
+    cursor: pointer;
+    
+}
+
+.table th, 
+.table td {
+    padding: 12px 15px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+.table th {
+    background-color: #78b5b8;
+    color: white;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+    background-color:  #87c6d1a1;
+    transition: 0.3s;
+}
+
+.button{
+    display: flex;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: background-color .3s;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    width: 50%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.modalInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+}
+
+.closeButton {
+    background-color: #e74c3c;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+}
+
+.closeButton:hover {
+    background-color: #c0392b;
+}
+
+
+
+.pacientesList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.pacientesLis li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.2rem;
+}
+
+
+.pacientes li:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.container{
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #377fdd1c;
+    border-radius: 8px;
+}

@@ -1,0 +1,80 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #001653cc;
+    color: #e6e6e6;
+    padding: 10px 0;
+}
+
+.menuBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    gap: 20px;
+}
+
+.divLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.containerMenu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    position: relative;
+    justify-content: flex-start;
+}
+
+.containerMenu li {
+    position: relative;
+    padding: 0 5px;
+}
+
+.containerMenu a {
+    font-family: "Poppins", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+
+.dropdownMenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background:  #00165386;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    list-style: none;
+    padding: 10px 0;
+    min-width: 180px;
+}
+
+.dropdownMenu li {
+    padding: 10px 15px;
+}
+
+.dropdownMenu li:hover {
+    background-color:  #0016534b;
+    
+}
+
+.dropdown {
+    position: relative;
+    cursor: pointer;
+}
+
+.logo {
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
